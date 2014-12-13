@@ -8,4 +8,5 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Graph::Reader::OID::VERSION, 0.02, 'Version.');
+my $obj = Graph::Reader::OID->new;
+isa_ok($obj, 'Graph::Reader::OID');

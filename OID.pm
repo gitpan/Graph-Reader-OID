@@ -13,7 +13,7 @@ Readonly::Scalar our $DOT => q{.};
 Readonly::Scalar our $EMPTY_STR => q{};
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Read graph subroutine.
 sub _read_graph {
@@ -163,10 +163,11 @@ L<http://skim.cz>
 
 =head1 LICENSE AND COPYRIGHT
 
-BSD license.
+ © 2014 Michal Špaček
+ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
